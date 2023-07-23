@@ -2,13 +2,13 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Next.js Blog Starter Kit',
-    description: 'Clone and deploy your own Next.js portfolio in minutes.',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png',
+    title: 'RetroTech 팟캐스트',
+    description: '기술의 역사를 살펴봅니다',
+    image: '/images/cover.jpg',
   }
 
   return (
-    <Html lang="en">
+    <Html lang="ko">
       <Head>
         <meta name="robots" content="follow, index" />
         <meta name="description" content={meta.description} />
@@ -17,7 +17,7 @@ export default function Document() {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@yourname" />
+        <meta name="twitter:site" content="@outsideris" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -25,6 +25,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <script src="https://kit.fontawesome.com/bba8fa6a15.js" crossOrigin="anonymous"></script>
       </body>
     </Html>
   )

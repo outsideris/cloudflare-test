@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title><![CDATA[RetroTech 팟캐스트]]></title>
+        <description><![CDATA[RetroTech 팟캐스트]]></description>
+        <link>https://yoursite.com</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sun, 23 Jul 2023 09:41:17 GMT</lastBuildDate>
+        <atom:link href="https://yoursite.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <language><![CDATA[ko]]></language>
+        <itunes:owner>
+            <itunes:name>Outsider</itunes:name>
+            <itunes:email>outsideris@gmail.com.com</itunes:email>
+        </itunes:owner>
+        <itunes:author>Outsider</itunes:author>
+        <itunes:image href="https://yoursite.com/images/cover.png"/>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:category text="Technology">
+        </itunes:category>
+        <item>
+            <title><![CDATA[0. Pilot]]></title>
+            <description><![CDATA[Learn more about Next.js pages.]]></description>
+            <link>https://yoursite.com/episodes/0</link>
+            <guid isPermaLink="true">https://yoursite.com/episodes/0</guid>
+            <dc:creator><![CDATA[Outsider]]></dc:creator>
+            <pubDate>Sat, 08 Jul 2023 00:00:00 GMT</pubDate>
+            <enclosure url="https://your-site/00.mp3" length="37621260" type="audio/mpeg"/>
+            <duration>19:35</duration>
+            <itunes:duration>19:35</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:author>Outsider</itunes:author>
+        </item>
+    </channel>
+</rss>
